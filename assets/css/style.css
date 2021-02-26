@@ -5,7 +5,7 @@
 }
 
 body {
-    background: linear-gradient(34deg, rgba(68,86,215,1) 0%, rgba(2,0,111,1) 49%, rgba(17,17,17,1) 49%, rgba(34,34,34,1) 98%);
+    background: linear-gradient(34deg, rgb(68, 86, 215) 0%, rgba(2,0,111,1) 49%, rgba(17,17,17,1) 49%, rgba(34,34,34,1) 98%);
 }
 
 main {
@@ -25,7 +25,7 @@ main {
 }
 
 .container > h1 {
-    color: #06258d;
+    color: #4456D7;
     margin-bottom: 10px;
 }
 
