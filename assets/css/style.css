@@ -1,0 +1,40 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: linear-gradient(34deg, rgba(68,86,215,1) 0%, rgba(2,0,111,1) 49%, rgba(17,17,17,1) 49%, rgba(34,34,34,1) 98%);
+}
+
+main {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    width: 20%;
+    text-align: center;
+    background: linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(17,17,17,1) 34%, rgba(34,34,34,1) 98%);
+    padding: 5px 20px 20px 20px;
+    border-radius: 10px;
+    box-shadow: 1px 1px 5px #000;
+}
+
+.container > h1 {
+    color: #06258d;
+    margin-bottom: 10px;
+}
+
+.container > #psw {
+    font-size: 1.3rem;
+    color: #fff;
+}
+
+.container > #done {
+    color: #9acb72;
+    margin-top: 10px;
+}
